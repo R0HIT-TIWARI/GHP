@@ -1,0 +1,133 @@
+/* General Styles */
+body, h1, h2, h3, h4, p, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header h1 {
+    float: left;
+    margin-left: 20px;
+}
+
+header nav {
+    float: right;
+    margin-right: 20px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn {
+    background: #f4f4f4;
+    color: #333;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#hero {
+    background: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 10px;
+}
+
+#hero p {
+    color: #666;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.search-bar input, .search-bar button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#features, #how-it-works, #featured-jobs, #top-employers, #testimonials {
+    padding: 20px 0;
+}
+
+.features-grid, .steps-grid, .employer-grid {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.feature, .step, .employer {
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+#featured-jobs .job-listing {
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#testimonials blockquote {
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    border-left: 5px solid #333;
+    margin: 20px auto;
+    width: 60%;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    padding: 0 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
